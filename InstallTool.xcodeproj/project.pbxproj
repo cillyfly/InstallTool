@@ -26,7 +26,9 @@
 		1EBF9BA4230EE1C900DF16B9 /* DropView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropView.swift; sourceTree = "<group>"; };
 		A6EEAD04A83F79AC9C501E86 /* Pods-InstallTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallTool.debug.xcconfig"; path = "Target Support Files/Pods-InstallTool/Pods-InstallTool.debug.xcconfig"; sourceTree = "<group>"; };
 		B081F225EDB45F389BD2C998 /* Pods_InstallTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstallTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C063F7E09DEDD7663D35A0FE /* Pods-InstallTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstallTool/Pods-InstallTool.debug.xcconfig"; sourceTree = "<group>"; };
 		C6ABCB3E36A956CDB644642B /* Pods-InstallTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallTool.release.xcconfig"; path = "Target Support Files/Pods-InstallTool/Pods-InstallTool.release.xcconfig"; sourceTree = "<group>"; };
+		CCBF3A9193E8CFC6FB06E883 /* Pods-InstallTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstallTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstallTool/Pods-InstallTool.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +88,9 @@
 			children = (
 				A6EEAD04A83F79AC9C501E86 /* Pods-InstallTool.debug.xcconfig */,
 				C6ABCB3E36A956CDB644642B /* Pods-InstallTool.release.xcconfig */,
+				C063F7E09DEDD7663D35A0FE /* Pods-InstallTool.debug.xcconfig */,
+				CCBF3A9193E8CFC6FB06E883 /* Pods-InstallTool.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -212,7 +215,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-InstallTool/Pods-InstallTool-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-InstallTool/Pods-InstallTool-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ADragDropView/ADragDropView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -223,7 +226,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstallTool/Pods-InstallTool-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InstallTool/Pods-InstallTool-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -304,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -359,7 +362,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -382,6 +385,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ili.InstallTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -403,6 +407,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ili.InstallTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

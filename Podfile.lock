@@ -1,0 +1,16 @@
+PODS:
+  - ADragDropView (1.0.3)
+
+DEPENDENCIES:
+  - ADragDropView
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ADragDropView
+
+SPEC CHECKSUMS:
+  ADragDropView: 556fb85e52360c2a05bcf5539c4c4ec8b457824c
+
+PODFILE CHECKSUM: dc7d4816e43b0a03e84c5fd3b1008eab37dcc22b
+
+COCOAPODS: 1.5.3
